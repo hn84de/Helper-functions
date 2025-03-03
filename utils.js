@@ -1,6 +1,6 @@
 function getCopy(objToCopy)
 {
-  if (objToCopy !== 'object')
+  if (typeof objToCopy !== 'object')
   {
     return objToCopy;
   }
