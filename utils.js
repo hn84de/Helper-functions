@@ -1,11 +1,11 @@
 function getCopy(objToCopy)
 {
-  if (objToCopy === null)
+  if (objToCopy !== 'object')
   {
     return objToCopy;
   }
-
-  if (objToCopy !== 'object')
+  
+  if (objToCopy === null)
   {
     return objToCopy;
   }
